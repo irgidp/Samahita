@@ -1,0 +1,290 @@
+/* Layar and Devices */
+.navbar {
+  background-size: 100%;
+  background-color: #e73788;
+  height: 80px;
+}
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Image Slider */
+.carousel-caption {
+  top: 100px;
+}
+.hr1 {
+  border: 2px solid #f46c99;
+  border-radius: 2px;
+  width: 70px;
+  margin-left: 0px;
+}
+.hr2 {
+  border: 2px solid white;
+  border-radius: 2px;
+  width: 70px;
+  margin-left: 0px;
+}
+.hr3 {
+  border: 2px solid #f46c99;
+  border-radius: 2px;
+  width: 70px;
+  margin-left: 0px;
+}
+
+.texttl {
+  font-size: 45px;
+  font-family: "Archivo", sans-serif;
+}
+.texthd {
+  font-weight: bold;
+  font-family: "Archivo", sans-serif;
+}
+.textpg {
+  font-size: 12px;
+  width: 550px;
+}
+.btn {
+  background-color: #f46c99;
+}
+.btn2 {
+  background-color: #f46c99;
+}
+.prevbtn {
+  bottom: 0px;
+}
+.nextbtn {
+  bottom: 0px;
+}
+
+/* Search */
+input[type="search"] {
+  background-color: #e73788;
+}
+.search-container button {
+  float: right;
+  background: #e73788;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding-right: 50px;
+}
+.search-container button:hover {
+  background: #ccc;
+}
+.search-container ::placeholder {
+  color: white;
+}
+
+/* Card */
+.card-text {
+  font-size: 12px;
+  width: 200px;
+}
+.card-container .btn {
+  background-color: #f46c99;
+}
+
+@import "compass/css3;";
+
+/***********************
+ * Essential Structure *
+ ***********************/
+.flexsearch--wrapper {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  overflow: hidden;
+  background: transparent;
+  margin: 0;
+  position: static;
+}
+
+.flexsearch--form {
+  overflow: hidden;
+  position: relative;
+}
+
+.flexsearch--input-wrapper {
+  padding: 0 66px 0 0;
+  /* Right padding for submit button width */
+  overflow: hidden;
+}
+
+.flexsearch--input {
+  width: 100%;
+}
+
+/***********************
+ * Configurable Styles *
+ ***********************/
+
+.flexsearch--input {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 30px;
+  width: 100px;
+  padding: 0 46px 0 10px;
+  border-color: #ffffff;
+  border-radius: 35px;
+  /* (height/2) + border-width */
+  /* border-style: solid; */
+  border-width: 3px;
+  margin-top: 5px;
+  font-family: "Helvetica", sans-serif;
+  font-size: 12px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.searchButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 45px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  margin-top: 3px;
+  /* margin-top + border-width */
+  margin-right: 70px;
+  /* border-width */
+  background: transparent;
+  color: #ffffff;
+  font-family: "Helvetica", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.flexsearch--input:focus {
+  outline: none;
+  border-color: #ffffff;
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+  color: #ffffff;
+}
+
+.flexsearch--submit:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+input:-moz-placeholder {
+  color: #ffffff;
+}
+
+/* Footer */
+.ft {
+  margin-top: 50px;
+  background-image: url("img/bg1.jpg");
+  background-size: cover;
+}
+.row {
+  justify-content: center;
+  font-family: "Archivo", sans-serif;
+}
+.row .lks {
+  margin-top: 30px;
+  margin-left: -70px;
+  color: white;
+}
+.row .lks2 {
+  color: white;
+  margin-left: -70px;
+  font-size: 14px;
+}
+.row .info {
+  margin-top: 30px;
+  margin-left: -30px;
+  color: white;
+}
+.row .info2 {
+  color: white;
+  margin-left: -30px;
+  font-size: 14px;
+}
+.row .cr {
+  margin-top: 60px;
+  color: white;
+  margin-left: -30px;
+  font-size: 14px;
+}
+/* Bergabung.html */
+.box {
+  text-align: center;
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 20px;
+  width: 1320px;
+  height: 800px;
+}
+.text1 {
+  font-size: 60px;
+  font-family: "Archivo", sans-serif;
+  font-weight: bold;
+}
+
+:placeholder-shown,
+.textbox ::placeholder {
+  color: grey;
+}
+.textbox {
+  font-size: 30px;
+  border-bottom: 2px solid grey;
+  width: 500px;
+}
+.textbox input {
+  border: none;
+  outline: none;
+  background: none;
+  color: black;
+}
+
+/* profil.html */
+.textkiri {
+  position: absolute;
+  top: 600px;
+  text-align: justify;
+  color: white;
+  left: 70px;
+}
+.textkanan {
+  position: absolute;
+  top: 600px;
+  text-align: justify;
+  color: white;
+  left: 1000px;
+}
+.hrkiri {
+  position: absolute;
+  top: 35px;
+  border: 2px solid white;
+  border-radius: 2px;
+  width: 70px;
+}
+.hrkanan {
+  position: absolute;
+  top: 35px;
+  border: 2px solid white;
+  border-radius: 2px;
+  width: 70px;
+}
+.cc {
+  margin-bottom: -55px;
+}
+
+/* artikel.html */
+.hrar1 {
+  border: 2px solid black;
+  border-radius: 1px;
+  width: 200px;
+  margin-left: 0px;
+}
